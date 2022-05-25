@@ -2,7 +2,10 @@
 import './App.css';
 
 import FComp from './Components/FunctionalComp'; //I renamed the function here, that's allowed
-import ClassComp from './Components/ClassComp';
+import {ClassComp, ClassComp1} from './Components/ClassComp';
+import Click from './Components/Click';
+import Counter from './Components/Counter';
+import ParentComp from './Components/ParentComp';
 
 function App() {
   return (
@@ -12,6 +15,10 @@ function App() {
       <h1>I'm an Angular Developer, learning React.</h1>
       <FComp/>
       <ClassComp/>
+      <ClassComp1/>
+      <Click/>
+      <Counter/>
+      <ParentComp/>
     </div>
     )
 }
